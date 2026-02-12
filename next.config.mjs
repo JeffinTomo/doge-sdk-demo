@@ -1,9 +1,7 @@
-import pkg from "@next/env";
+import { loadEnvConfig } from "@next/env/dist/index.js";
 import nextra from "nextra";
 import path from "path";
 import { fileURLToPath } from "url";
-
-const { loadEnvConfig } = pkg;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
