@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dogeos/dogeos-sdk':
-        specifier: ^3.0.10
-        version: 3.0.13(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)
+        specifier: 3.0.14-beta.0
+        version: 3.0.14-beta.0(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)
       '@tomo-inc/tomo-ui':
         specifier: ^0.0.11
         version: 0.0.11(@types/react@19.2.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)
@@ -29,6 +29,9 @@ importers:
       nextra-theme-docs:
         specifier: ^4.6.1
         version: 4.6.1(@types/react@19.2.9)(next@16.1.4(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nextra@4.6.1(next@16.1.4(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(use-sync-external-store@1.4.0(react@18.3.1))
+      qrcode:
+        specifier: ^1.5.4
+        version: 1.5.4
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -776,8 +779,8 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
 
-  '@dogeos/dogeos-sdk@3.0.13':
-    resolution: {integrity: sha512-BkaxIvzc4oamc47Rqn8bEn60GdxbI0cU0kp+16Fuh1Qj+YodwQC+QKRaRUUiFFDRdxUv77l8zEc7Cp8BL5gyeg==}
+  '@dogeos/dogeos-sdk@3.0.14-beta.0':
+    resolution: {integrity: sha512-6MLTT21W/4iVX1x/bF8PoVan6Rt3wVIBX8AQIqiyy59gNbE6xpX3MQmK0tZdKjgD8MmZ+fhHSZLwIdu26z8rrA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -9200,7 +9203,7 @@ snapshots:
 
   '@discoveryjs/json-ext@0.5.7': {}
 
-  '@dogeos/dogeos-sdk@3.0.13(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)':
+  '@dogeos/dogeos-sdk@3.0.14-beta.0(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)':
     dependencies:
       '@tanstack/react-query': 5.90.19(react@18.3.1)
       '@tomo-inc/embedded-wallet-providers': 0.0.18(bufferutil@4.1.0)(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(got@11.8.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(starknet@6.24.1)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
@@ -13622,7 +13625,7 @@ snapshots:
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/safe-json': 1.0.2
       events: 3.3.0
-      ws: 8.19.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
+      ws: 7.5.10(bufferutil@4.1.0)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
