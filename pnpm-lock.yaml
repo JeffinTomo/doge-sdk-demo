@@ -17,6 +17,9 @@ importers:
       create-hash:
         specifier: ^1.2.0
         version: 1.2.0
+      dotenv:
+        specifier: ^16.6.1
+        version: 16.6.1
       json-bigint:
         specifier: ^1.0.0
         version: 1.0.0

@@ -1,4 +1,4 @@
-import { loadEnvConfig } from "@next/env/dist/index.js";
+import dotenv from "dotenv";
 import nextra from "nextra";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -6,7 +6,13 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-loadEnvConfig(__dirname);
+dotenv.config({ path: path.join(__dirname, ".env") });
+
+try {
+  dotenv.config({ path: path.join(__dirname, ".env.local") });
+} catch (e) {
+  // Ignore error if .env.local doesn't exist
+}
 
 const sdkEnvKeys = [
   "NEXT_PUBLIC_SDK_TITLE",

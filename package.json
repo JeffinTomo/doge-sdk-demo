@@ -13,6 +13,7 @@
     "qrcode": "^1.5.4",
     "@tomo-inc/tomo-ui": "^0.0.11",
     "create-hash": "^1.2.0",
+    "dotenv": "^16.6.1",
     "json-bigint": "^1.0.0",
     "next": "^16.1.1",
     "nextra": "^4.6.1",
