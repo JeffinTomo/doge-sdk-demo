@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dogeos/dogeos-sdk':
-        specifier: 3.0.14-beta.0
-        version: 3.0.14-beta.0(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)
+        specifier: 3.0.16-beta.0
+        version: 3.0.16-beta.0(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)
       '@tomo-inc/tomo-ui':
         specifier: ^0.0.11
         version: 0.0.11(@types/react@19.2.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)
@@ -782,8 +782,8 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
 
-  '@dogeos/dogeos-sdk@3.0.14-beta.0':
-    resolution: {integrity: sha512-6MLTT21W/4iVX1x/bF8PoVan6Rt3wVIBX8AQIqiyy59gNbE6xpX3MQmK0tZdKjgD8MmZ+fhHSZLwIdu26z8rrA==}
+  '@dogeos/dogeos-sdk@3.0.16-beta.0':
+    resolution: {integrity: sha512-I8xxHYmxsvlbn/1E/POrIrZqjbFcn/OM7Co7ABedVqvb/zFbpBmlCpIUJTCudp6cg0fUGa50DEDLwYi8IfVkQg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -3083,8 +3083,8 @@ packages:
   '@tomo-inc/cubist-sig-sdk@1.1.0':
     resolution: {integrity: sha512-YyleSdv/ym0dtjJgs1Zt/Y8V7wF8KQ78Yo0Pz69R25XLwJH9cwJ1yOs03s2Fn94L++SrPqnp+zPHIpVjAbhCPw==}
 
-  '@tomo-inc/embedded-wallet-providers@0.0.18':
-    resolution: {integrity: sha512-nymOE/6ar6gaV9yL5rBNRzhRbeGttk1Qf82bUad5I6l5iifkEefQA1Gkz0aSnD/+WXxjikLrj6s8Fq5aMZn/Tw==}
+  '@tomo-inc/embedded-wallet-providers@0.0.20':
+    resolution: {integrity: sha512-wKFn7G2E/DsNu4j8orLUwn+PTOQkgazT5A6imdNtuq5uzN7+QD6dF6knAsD6y+xW/LRaneGqd7+RbFEriVfZMw==}
 
   '@tomo-inc/inject-providers@0.0.16':
     resolution: {integrity: sha512-YTknROM3oiNc1uvAbu/NoekFI6DAlqjkqP8A7v5hVVvj0e/FHl7OWUamZ3sT25roDAYq2MCSBoEg+PiT74Filg==}
@@ -9206,10 +9206,10 @@ snapshots:
 
   '@discoveryjs/json-ext@0.5.7': {}
 
-  '@dogeos/dogeos-sdk@3.0.14-beta.0(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)':
+  '@dogeos/dogeos-sdk@3.0.16-beta.0(@types/react@19.2.9)(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(react-dom@18.3.1(react@18.3.1))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(starknet@6.24.1)(tailwindcss@4.1.18)(typescript@5.9.3)(utf-8-validate@5.0.10)(wagmi@3.4.1(@tanstack/query-core@5.90.19)(@tanstack/react-query@5.90.19(react@18.3.1))(@types/react@19.2.9)(ox@0.11.3(typescript@5.9.3)(zod@4.3.6))(react@18.3.1)(typescript@5.9.3)(viem@2.44.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)))(zod@4.3.6)':
     dependencies:
       '@tanstack/react-query': 5.90.19(react@18.3.1)
-      '@tomo-inc/embedded-wallet-providers': 0.0.18(bufferutil@4.1.0)(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(got@11.8.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(starknet@6.24.1)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+      '@tomo-inc/embedded-wallet-providers': 0.0.20(bufferutil@4.1.0)(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(got@11.8.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(starknet@6.24.1)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
       '@tomo-inc/tomo-ui': 0.0.11(@types/react@19.2.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@4.1.18)
       '@tomo-inc/wallet-adaptor-base': 0.0.20(bufferutil@4.1.0)(ethers@6.13.5(bufferutil@4.1.0)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(got@11.8.6)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
       copy-to-clipboard: 3.3.3
@@ -13010,7 +13010,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@tomo-inc/embedded-wallet-providers@0.0.18(bufferutil@4.1.0)(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(got@11.8.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(starknet@6.24.1)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)':
+  '@tomo-inc/embedded-wallet-providers@0.0.20(bufferutil@4.1.0)(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(got@11.8.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(starknet@6.24.1)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)':
     dependencies:
       '@tomo-inc/inject-providers': 0.0.16(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
       '@tomo-inc/oidc-auth': 0.0.16(bufferutil@4.1.0)(expo@54.0.32(@babel/core@7.28.6)(bufferutil@4.1.0)(graphql@16.12.0)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(utf-8-validate@5.0.10))(got@11.8.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.9)(bufferutil@4.1.0)(react@18.3.1)(utf-8-validate@5.0.10))(starknet@6.24.1)(typescript@5.9.3)(utf-8-validate@5.0.10)

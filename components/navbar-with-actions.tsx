@@ -17,7 +17,7 @@ export function NavbarWithActions() {
     <Navbar
       logo={
         <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-          <Image src={sdkConfig.logoPath} alt="" width={32} height={32} />
+          {sdkConfig.logoPath && <Image src={sdkConfig.logoPath} alt="" width={32} height={32} />}
           <b>{sdkConfig.sdkName}</b>
         </div>
       }

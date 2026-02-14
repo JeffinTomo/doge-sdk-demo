@@ -31,7 +31,7 @@ export default async function RootLayout({ children }) {
           dark: "#000000",
         }}
       >
-        <link rel="icon" href={sdkConfig.faviconPath || sdkConfig.logoPath} />
+        {(sdkConfig.faviconPath || sdkConfig.logoPath) && <link rel="icon" href={sdkConfig.faviconPath || sdkConfig.logoPath} />}
       </Head>
       <body>
         <ClientLayout pageMap={pageMap} sdkConfig={sdkConfig}>
